@@ -37,6 +37,7 @@ json-simple = "1.1.1"
 gson = "2.13.2"
 jackson = "2.20.0"
 jackson-annotations = "2.20"
+jackson3 = "3.0.3"
 
 junit = "5.14.0"
 slf4j = "2.0.17"
@@ -170,6 +171,9 @@ jackson-databind = { module = "com.fasterxml.jackson.core:jackson-databind", ver
 jackson-module-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "jackson" }
 jackson-dataformat-smile = { module = "com.fasterxml.jackson.dataformat:jackson-dataformat-smile", version.ref = "jackson" }
 jackson-annotations = { module = "com.fasterxml.jackson.core:jackson-annotations", version.ref = "jackson-annotations" }
+jackson3-databind = { module = "tools.jackson.core:jackson-databind", version.ref = "jackson3" }
+jackson3-module-kotlin = { module = "tools.jackson.module:jackson-module-kotlin", version.ref = "jackson3" }
+jackson3-dataformat-smile = { module = "tools.jackson.dataformat:jackson-dataformat-smile", version.ref = "jackson3" }
 
 jansi = { module = "org.fusesource.jansi:jansi", version.ref = "jansi" }
 typesafe-config = { module = "com.typesafe:config", version.ref = "typesafe" }

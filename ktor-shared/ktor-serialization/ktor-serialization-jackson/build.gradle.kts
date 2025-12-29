@@ -14,6 +14,8 @@ kotlin {
             api(projects.ktorSerialization)
             api(libs.jackson.databind)
             api(libs.jackson.module.kotlin)
+            api(libs.jackson3.databind)
+            api(libs.jackson3.module.kotlin)
         }
         jvmTest.dependencies {
             api(projects.ktorServerTestHost)
